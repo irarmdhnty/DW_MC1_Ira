@@ -4,7 +4,7 @@ import { Data } from "../DataDummy/Data";
 
 const Detail = () => {
     const id = useParams();
-    const list = Data.filter((p) => p.id == id.id)
+    const list = Data.filter((a) => a.id === id.id)
   return (
     <Container>
         <div className="my-3 col-md-6">
